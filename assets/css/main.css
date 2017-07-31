@@ -174,9 +174,6 @@ section{
 .show{
     background-color:rgba(0,0,0,0.9)!important;
 }
-#portfolio{
-    padding-top: 4em;
-}
 #portfolio .row{
     margin-bottom: 0;
 }
@@ -288,6 +285,10 @@ section{
         background:  #A7455B;
         color: #fff;
     }
+    .padd{
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
 }
 
 /*SCROLL COLOR*/
@@ -339,8 +340,8 @@ section{
     border: none;
 }
 .padd{
-    padding-bottom: 7em;
-    padding-top: 8em;
+    padding-bottom: 1em;
+    padding-top: 5em;
 }
 .transition {    
     -webkit-transition: all 1s ease-in-out;
