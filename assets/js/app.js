@@ -1,7 +1,7 @@
 $(".button-collapse").sideNav();
 
 var typing = new Typed(".type",{
-     strings: ["La tecnología","El código","Ser creativa","¡ T O D O !"],
+     strings: ["La tecnología","Ser creativa","El código","Ser divertida","¡Soy yo!"],
      typeSpeed: 100,
      backSpeed:80,
      loop:true
@@ -15,9 +15,9 @@ $(window).scroll(function() {
  	};   	 
 });
 
- $('a[href="#aboutme"]').on('click', function(e) {
+ $('a[href*="#"]').on('click', function(e) {
    e.preventDefault();
-   $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 2000, 'linear');
+   $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
  });
 
 new WOW().init();
