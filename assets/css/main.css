@@ -332,6 +332,12 @@ section{
     height: 5px;
     border: none;
 }
+.line-separator{
+    background: #A7455B;
+    margin: 1.5em 0;
+    height: 2px;
+    border: none;
+}
 .padd{
     padding-bottom: 7em;
     padding-top: 8em;
